@@ -1,51 +1,67 @@
-# Validacion Y Verificacion
+# 📘 Historias de Usuario
 
+Documentación preparada para repositorio Git — clara, estructurada y lista para desarrollo.
 
+---
 
-1. Aplicación de movilidad urbana
+## 🚖 1. Aplicación de Movilidad Urbana
 
-Rol: Pasajero habitual
+**Rol:** Pasajero habitual
 
-Como pasajero, quiero ver el costo estimado del viaje antes de solicitar el vehículo, para decidir si el precio está dentro de mi presupuesto.
+### **Historia de Usuario**
 
-Criterios de aceptación
+**Como pasajero**,
+quiero ver el costo estimado del viaje antes de solicitar el vehículo,
+para decidir si el precio está dentro de mi presupuesto.
 
-La app debe calcular el costo estimado según distancia y tráfico en tiempo real.
+### **Criterios de Aceptación**
 
-La estimación debe mostrarse antes de confirmar el viaje.
+* La app debe calcular el costo estimado usando distancia y tráfico en tiempo real.
+* La estimación debe mostrarse antes de confirmar el viaje.
+* Si existen tarifas dinámicas, deben ser indicadas claramente al usuario.
+* La variación entre el costo estimado y el costo final no debe superar el porcentaje permitido por la plataforma.
 
-Si hay tarifas dinámicas, la app debe indicarlo de forma clara.
+---
 
-La variación entre el costo estimado y el final no debe superar el porcentaje permitido por la plataforma.
+## 📦 2. Sistema de Control Logístico para Almacenes
 
-2. Sistema de control logístico para almacenes
+**Rol:** Operador de inventario
 
-Rol: Operador de inventario
+### **Historia de Usuario**
 
-Como operador de inventario, quiero escanear códigos QR de productos usando una pistola lectora, para registrar entradas y salidas en tiempo real sin errores manuales.
+**Como operador de inventario**,
+quiero escanear códigos QR de productos usando una pistola lectora,
+para registrar entradas y salidas en tiempo real sin errores manuales.
 
-Criterios de aceptación
+### **Criterios de Aceptación**
 
-El sistema debe registrar automáticamente la entrada o salida al escanear un producto.
+* El sistema debe registrar automáticamente la entrada o salida al escanear un producto.
+* Los movimientos deben actualizar el stock en menos de 2 segundos.
+* La interfaz debe mostrar un mensaje de confirmación o error tras cada escaneo.
+* Si un ítem llega a stock cero, debe generarse una alerta automática de reposición.
+* Debe existir un historial consultable filtrado por fecha, responsable y SKU.
+* Debe existir un mecanismo para corregir escaneos erróneos con trazabilidad del cambio.
 
-Los movimientos deben actualizar el stock en menos de 2 segundos.
+---
 
-La interfaz debe mostrar un mensaje claro de confirmación o error tras cada escaneo.
+## 📊 3. Sistema de Reportes para Ventas
 
-Si el stock de un ítem llega a cero, debe generar una alerta automática para reposición.
+**Rol:** Gerente de ventas
 
-La plataforma debe permitir consultar el historial de movimientos filtrando por fecha, responsable y SKU.
+### **Historia de Usuario**
 
-Debe existir un mecanismo para corregir escaneos erróneos, dejando trazabilidad del cambio.
+**Como gerente de ventas**,
+quiero generar reportes mensuales automáticos,
+para monitorear el rendimiento del equipo sin procesar datos manualmente.
 
-3. Sistema de reportes para ventas
+### **Criterios de Aceptación**
 
-Rol: Gerente de ventas
+* El sistema debe permitir programar la generación del reporte en una fecha específica.
+* El reporte debe incluir ventas totales, metas alcanzadas y variación porcentual respecto al mes anterior.
 
-Como gerente de ventas, quiero generar reportes mensuales automáticos, para monitorear el rendimiento del equipo sin procesar datos manualmente.
+---
 
-Criterios de aceptación
+### ✅ **Formato listo para Git**
 
-El sistema debe permitir programar la generación del reporte en una fecha específica.
+Este archivo está optimizado para documentación técnica, repositorios de GitHub y entornos colaborativos.
 
-El reporte debe incluir ventas totales, metas cumplidas y variación porcentual respecto al mes anterior.
