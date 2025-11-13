@@ -59,9 +59,4 @@ para monitorear el rendimiento del equipo sin procesar datos manualmente.
 * El sistema debe permitir programar la generación del reporte en una fecha específica.
 * El reporte debe incluir ventas totales, metas alcanzadas y variación porcentual respecto al mes anterior.
 
----
-
-### ✅ **Formato listo para Git**
-
-Este archivo está optimizado para documentación técnica, repositorios de GitHub y entornos colaborativos.
 
